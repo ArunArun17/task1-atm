@@ -35,9 +35,6 @@ public class Main{
             next=6;
             System.out.println("account number must be between 100001 and 999999. please try again");
         }
-
-
-
     }
 
     public void create()
@@ -58,6 +55,7 @@ public class Main{
                     break;
                 }else {
                     System.out.println("This account has already been created. ");
+                    next=9;
                     break;
                 }
             case 2:
@@ -163,8 +161,7 @@ public class Main{
                 System.out.println("--------------------------");}
         }
 
-        System.out.println("Thank you visiting my project.");
-
+        System.out.println("Thank you for visiting my project.");
     }
 
 }
