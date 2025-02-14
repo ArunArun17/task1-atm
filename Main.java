@@ -39,7 +39,7 @@ public class Main{
 
     public void create()
     {
-        System.out.println("1.Log in\n" + "2.Sign in");
+        System.out.println("1.Sign up\n" + "2.Sign in");
         System.out.print("Enter your choice : ");
         int choice = scan.nextInt();
         next=choice;
